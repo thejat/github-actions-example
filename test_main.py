@@ -10,9 +10,9 @@ def train_model():
     
     return model
 
-if __name__ == "__main__":
-    model = train_model()
-    print(f"Model coefficient: {model.coef_[0]}, Intercept: {model.intercept_}")
+# if __name__ == "__main__":
+#     model = train_model()
+#     print(f"Model coefficient: {model.coef_[0]}, Intercept: {model.intercept_}")
 
 def test_regression():
     model = train_model()
